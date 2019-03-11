@@ -5,4 +5,12 @@ body {
   font: 100% $font-stack;
   color: $primary-font-color;
   background-color: rgba(0,0,0,0.2);
+  max-width: 500px;
+
+}
+
+#journal {
+  display: flex;
+  flex-direction: column;
+
 }

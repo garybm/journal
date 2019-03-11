@@ -17,7 +17,7 @@ Entry.prototype.count = function() {
 // Return the number of vowels in the Entry
 
 function vowCount(arr) {
-  var vowList = ["a","e","i","o","u"];
+  var vowList = ["a","e","i","o","u","A","E","I","O","U"];
   var vows = 0;
   for (var i = 0; i < arr.length; i++) {
     if (vowList.includes(arr[i])) {
